@@ -18,10 +18,10 @@ public class MineSweeper extends JFrame {
     private JLabel label;
 
     //Игровые константы
-    private final int COLS = 9;
-    private final int ROWS = 9;
-    private final int BOMBS = 10;
-    private final int IMAGE_SIZE = 50;
+    private final int COLS = 30;
+    private final int ROWS = 16;
+    private final int BOMBS = 99;
+    private final int IMAGE_SIZE = 17;
 
     public static void main(String[] args) {
         new MineSweeper();

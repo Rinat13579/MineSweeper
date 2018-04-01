@@ -10,6 +10,7 @@ public class Coord {
         this.y = y;
     }
 
+
     //переопределенный equals для сравнения координат друг с другом
     @Override
     public boolean equals(Object obj) {
